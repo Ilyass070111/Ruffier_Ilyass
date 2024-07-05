@@ -4,7 +4,7 @@ win_x, win_y = 200, 100
 win_width, win_height = 1000, 600
 
 txt_hello = 'Welcome to the Health status detection program!'
-txt_next = 'Start'
+txt_next = 'start'
 txt_instruction = ('This application allows you to use the Rufier test to make an initial diagnosis of your health.\n'
                     'The Rufier test is a set of physical exercises designed to assess your cardiac performance during physical exertion.\n'
                     'The subject lies in the supine position for 5 minutes and has their pulse rate measured for 15 seconds; \n'

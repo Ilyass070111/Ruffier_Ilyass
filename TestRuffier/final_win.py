@@ -99,7 +99,7 @@ class FinalWin(QWidget):
         self.layout_line.addWidget(self.workh_text, alignment = Qt.AlignCenter)         
         self.setLayout(self.layout_line)
 
-    ''' sets what the window will look like (label, size, location) '''
+    '' sets what the window will look like (label, size, location) ''
     def set_appear(self):
         self.setWindowTitle(txt_finalwin)
         self.resize(win_width, win_height)

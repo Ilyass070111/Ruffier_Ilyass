@@ -51,7 +51,7 @@ class TestWin(QWidget):
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
     def initUI(self):
-        ''' creates graphic elements '''
+        '' creates graphic elements ''
         #self.questionnary = AllQuestions()
         self.btn_next = QPushButton(txt_sendresults, self)
         self.btn_test1 = QPushButton(txt_starttest1, self)

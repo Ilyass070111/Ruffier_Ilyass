@@ -47,7 +47,7 @@ class MainWin(QWidget):
     def connects(self):
         self.btn_next.clicked.connect(self.next_click)
 
-    ''' sets what the window will look like (label, size, location) '''
+    '' sets what the window will look like (label, size, location) ''
     def set_appear(self):
         self.setWindowTitle(txt_title)
         self.resize(win_width, win_height)
